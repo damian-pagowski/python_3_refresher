@@ -31,9 +31,30 @@ print(" pi = {:.2f}".format( 3.14 )) # new
 
 
 # get user input - prompt
-answer = input("whats your favourite color?")
-print(answer)
+# answer = input("whats your favourite color?")
+# print(answer)
 
+# functions
+
+# *args varargs
+def print_two(*args):
+    one, two = args
+    print("first %s and second %s" % (one, two))
+
+print_two("a", "b")
+
+# default arguments in function
+#  function doc string
+def greetings(first="hello", second="Damian"):
+    '''prints greeting
+    doc string 
+    can have
+    multiple 
+    lines''' 
+    print("%s %s" % (first, second))
+
+greetings("hi", "Joe")
+greetings()
 # data types
 
 # conditionals
