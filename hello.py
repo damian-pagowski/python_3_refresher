@@ -4,6 +4,7 @@ import sys
 #  first is filename
 # ternar operator syntax much dirrefent from java  and JS
 name = "Stranger" if len(sys.argv) < 2 else sys.argv[1] 
+# first argument is always script name
 print("hello {}".format(name))
 
 #  comments
@@ -28,6 +29,10 @@ print("this is number %d" % 3.14) # will drop fractional part
 print("pi =  %1.2f" % 3.14)  # python 2 style
 print(" pi = {:.2f}".format( 3.14 )) # new
 
+
+# get user input - prompt
+answer = input("whats your favourite color?")
+print(answer)
 
 # data types
 
