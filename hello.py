@@ -55,11 +55,49 @@ def greetings(first="hello", second="Damian"):
 
 greetings("hi", "Joe")
 greetings()
-# data types
+
+
+# logic operators
+# and
+# or
+# not
+# != (not equal)
+# == (equal)
+# >= (greater- than- equal)
+# <= (less- than- equal)
+# True
+# False
+
 
 # conditionals
 
+apples = 5
+cherries = 10
+
+#  if--elif-else
+if apples < cherries:
+    print('cherry wins')
+elif apples == cherries:
+    print('draft')
+else:
+    print('apple wins')
+
 # loops
+colors = ['blue', 'red', 'green']
+# iterate over colection
+for i in colors:
+    print("color: %s" % i)
+
+# iterate over colection using index 
+for i in range(len(colors)):
+    print("color with index %d is %s" % (i, colors[i]))
+
+# while loop
+j=0
+while j < len(colors):
+    print("in while loop. current color: %s" % colors[j])
+    j+=1
 
 # data structures
 
+# data types
