@@ -98,6 +98,29 @@ while j < len(colors):
     print("in while loop. current color: %s" % colors[j])
     j+=1
 
-# data structures
+# lists
+colorsSentence = "orange blue white yellow green black pink brown"
+colorList = colorsSentence.split(' ')
+print("list size before pop: %d" % len(colorList))
+print("list.pop: " + colorList.pop())
+print("list size after pop: %d" % len(colorList))
+for color in colorList:
+    print('Im %s daba dee daba daaa' % color)
+
+# dictionaries
+
+person = {'name' : 'damian', 'age' : 35}
+print('name of person: ' + person['name'])
+
+# modules
+
+import first_module
+first_module.say_hello_from_module('damian')
+from first_module import say_hello_from_module
+say_hello_from_module('Mugen')
+from first_module import say_hello_from_module as hi
+hi('Jin')
+
+#classes
 
 # data types
